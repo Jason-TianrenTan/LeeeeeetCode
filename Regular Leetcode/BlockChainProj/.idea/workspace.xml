@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f6c8edb-8130-4f76-827b-4818ee265f69" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aZQAtXUdyNlOvzSfCvneHIkFlW" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\IDEAProjects\BlockChainProj\src\main\resources" />
+      <recent name="E:\Programming\IDEAProjects\BlockChainProj\src\main\java\View" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="View.AgentView" />
+      <module name="BlockChainProj" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f6c8edb-8130-4f76-827b-4818ee265f69" name="Default Changelist" comment="" />
+      <created>1586940495693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586940495693</updated>
+      <workItem from="1586941773369" duration="6512000" />
+      <workItem from="1587029109458" duration="3183000" />
+      <workItem from="1587097242827" duration="1089000" />
+      <workItem from="1587215036595" duration="4586000" />
+      <workItem from="1587267486140" duration="2003000" />
+      <workItem from="1587269787955" duration="1798000" />
+      <workItem from="1587275962492" duration="8815000" />
+      <workItem from="1587300809737" duration="1839000" />
+      <workItem from="1587359981783" duration="5042000" />
+      <workItem from="1587373733875" duration="2334000" />
+      <workItem from="1587566381670" duration="4064000" />
+      <workItem from="1588171871841" duration="617000" />
+      <workItem from="1588247876789" duration="2499000" />
+      <workItem from="1588256786361" duration="5125000" />
+      <workItem from="1588324730737" duration="759000" />
+      <workItem from="1589338694353" duration="3921000" />
+      <workItem from="1589388973064" duration="1543000" />
+      <workItem from="1589449523030" duration="11447000" />
+      <workItem from="1589541426618" duration="780000" />
+      <workItem from="1589706771557" duration="5145000" />
+      <workItem from="1590020884044" duration="3012000" />
+      <workItem from="1590027308185" duration="363000" />
+      <workItem from="1590060229693" duration="2335000" />
+      <workItem from="1590064548594" duration="2000" />
+      <workItem from="1598887372070" duration="30000" />
+      <workItem from="1590035094216" duration="2379000" />
+      <workItem from="1590038572133" duration="25000" />
+      <workItem from="1590047331716" duration="9410000" />
+      <workItem from="1590152742704" duration="1913000" />
+      <workItem from="1590156248231" duration="6107000" />
+      <workItem from="1590171694535" duration="7071000" />
+      <workItem from="1607747779359" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

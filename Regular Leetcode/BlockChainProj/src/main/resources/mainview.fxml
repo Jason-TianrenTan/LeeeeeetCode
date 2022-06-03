@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="609.0" prefWidth="904.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainViewController">
+   <children>
+      <TabPane layoutY="30.0" prefHeight="816.0" prefWidth="1129.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="区块链信息">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                      <AnchorPane layoutX="498.0" layoutY="43.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                        <SplitPane dividerPositions="0.6464516129032258" layoutX="-1.0" orientation="VERTICAL" prefHeight="777.0" prefWidth="1129.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="284.0" prefWidth="1127.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.23070097604259096" prefHeight="498.0" prefWidth="1129.0">
+                                      <items>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                             <children>
+                                                <ListView fx:id="listview" prefHeight="495.0" prefWidth="255.0" />
+                                             </children></AnchorPane>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                             <children>
+                                                <Label fx:id="transIDLabel" layoutX="55.0" layoutY="27.0" prefHeight="60.0" text="Transaction ID">
+                                                   <font>
+                                                      <Font name="Times New Roman" size="30.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="55.0" layoutY="264.0" prefHeight="23.0" text="Description:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="priceLabel" layoutX="214.0" layoutY="106.0" text="10元">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="dateLabel" layoutX="214.0" layoutY="144.0" text="2020年11月23日">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="productNameLabel" layoutX="214.0" layoutY="184.0" text="上海市地铁线路流量统计">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="sellerLabel" layoutX="214.0" layoutY="224.0" text="0acbf3">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="descriptionLabel" layoutX="214.0" layoutY="264.0" text="描述了上海市2020.11.14-11.23内个地铁线路人流量日统计数据">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="250.0" layoutY="34.0" prefHeight="46.0" prefWidth="477.0" text="f6d1bc5f7b0016eab53ec022db9a5d9e1873ee78513b1c666696e66777fe55fb">
+                                                   <font>
+                                                      <Font size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="55.0" layoutY="225.0" prefHeight="23.0" text="Seller ID:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="55.0" layoutY="185.0" prefHeight="23.0" text="Product name:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="55.0" layoutY="145.0" prefHeight="23.0" text="Upload Date:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="55.0" layoutY="107.0" prefHeight="23.0" text="Price:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label layoutX="52.0" layoutY="304.0" prefHeight="23.0" text="Organization:">
+                                                   <font>
+                                                      <Font name="Sitka Subheading" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="descriptionLabel1" layoutX="214.0" layoutY="304.0" text="暂无描述">
+                                                   <font>
+                                                      <Font name="Microsoft YaHei" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children></AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <ScrollPane prefHeight="274.0" prefWidth="1129.0">
+                                       <content>
+                                          <TextArea prefHeight="271.0" prefWidth="1129.0" text="Blockchain is Valid: true&#10;[&#10;  {&#10;    &quot;hash&quot;: &quot;0000016667d4240e9c30f53015310b0ec6ce99032d7e1d66d670afc509cab082&quot;,&#10;    &quot;previousHash&quot;: &quot;0&quot;,&#10;    &quot;data&quot;: &quot;first&quot;,&#10;    &quot;timeStamp&quot;: 1520659506042,&#10;    &quot;nonce&quot;: 618139&#10;  },&#10;  {&#10;    &quot;hash&quot;: &quot;000002ea55735bea4cac7e358c7b0d8d81e8ca24021f5f85211bf54fd4ac795a&quot;,&#10;    &quot;previousHash&quot;: &quot;0000016667d4240e9c30f53015310b0ec6ce99032d7e1d66d670afc509cab082&quot;,&#10;    &quot;data&quot;: &quot;second&quot;,&#10;    &quot;timeStamp&quot;: 1520659508825,&#10;    &quot;nonce&quot;: 1819877&#10;  },&#10;  {&#10;    &quot;hash&quot;: &quot;000000576987e5e9afbdf19b512b2b7d0c56db0e6ca49b3a7e638177f617994b&quot;,&#10;    &quot;previousHash&quot;: &quot;000002ea55735bea4cac7e358c7b0d8d81e8ca24021f5f85211bf54fd4ac795a&quot;,&#10;    &quot;data&quot;: &quot;third&quot;,&#10;    &quot;timeStamp&quot;: 1520659515910,&#10;    &quot;nonce&quot;: 1404341&#10;  }&#10;]" />
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="交易记录">
+               <content>
+                  <TableView fx:id="transactionTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="txidCol" prefWidth="75.0" text="交易编号" />
+                      <TableColumn fx:id="productCol" prefWidth="133.0" text="商品名称" />
+                        <TableColumn fx:id="dateCol" prefWidth="175.0" text="上架时间" />
+                        <TableColumn fx:id="sellerCol" minWidth="6.0" prefWidth="233.0" text="出售者" />
+                        <TableColumn fx:id="txDateCol" prefWidth="175.0" text="交易时间" />
+                        <TableColumn fx:id="desCol" prefWidth="345.0" text="描述信息" />
+                    </columns>
+                  </TableView>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="1129.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
